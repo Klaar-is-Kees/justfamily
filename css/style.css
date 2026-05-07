@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;1,9..144,300&family=DM+Sans:wght@300;400;500&display=swap');
 
 :root {
-  --pink: #EB91B7;
-  --pink-dark: #E85392;
+  --orange: #EA5F38;
+  --orange-dark: #BC4C2D;
   --cream: #FDF6EE;
   --warm-white: #FFFBF7;
   --charcoal: #1C1C1C;
@@ -75,10 +75,10 @@ nav {
   transition: color 0.2s;
 }
 
-.nav-links a:hover, .nav-links a.active { color: var(--pink); }
+.nav-links a:hover, .nav-links a.active { color: var(--orange); }
 
 .nav-cta {
-  background: var(--pink);
+  background: var(--orange);
   color: white !important;
   padding: 0.5rem 1.2rem;
   border-radius: 100px;
@@ -86,7 +86,7 @@ nav {
   transition: background 0.2s !important;
 }
 
-.nav-cta:hover { background: var(--pink-dark) !important; color: white !important; }
+.nav-cta:hover { background: var(--orange-dark) !important; color: white !important; }
 
 /* ── HERO ── */
 .hero {
@@ -119,7 +119,7 @@ nav {
   font-weight: 500;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--pink);
+  color: var(--orange);
   background: rgba(217,56,30,0.1);
   padding: 0.35rem 1rem;
   border-radius: 100px;
@@ -138,7 +138,7 @@ nav {
 
 .hero h1 em {
   font-style: italic;
-  color: var(--pink);
+  color: var(--orange);
 }
 
 .hero-sub {
@@ -159,7 +159,7 @@ nav {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background: var(--pink);
+  background: var(--orange);
   color: white;
   padding: 0.9rem 2rem;
   border-radius: 100px;
@@ -171,7 +171,7 @@ nav {
 }
 
 .btn-primary:hover {
-  background: var(--pink-dark);
+  background: var(--orange-dark);
   transform: translateY(-2px);
   box-shadow: 0 8px 28px rgba(217,56,30,0.35);
 }
@@ -224,7 +224,7 @@ nav {
   font-size: 0.75rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--pink);
+  color: var(--orange);
   font-weight: 500;
   margin-bottom: 1rem;
 }
@@ -355,7 +355,7 @@ nav {
 }
 
 .article-card:hover {
-  border-color: var(--pink);
+  border-color: var(--orange);
   transform: translateY(-4px);
   box-shadow: 0 12px 40px rgba(0,0,0,0.08);
 }
@@ -364,7 +364,7 @@ nav {
   font-size: 0.75rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--pink);
+  color: var(--orange);
   font-weight: 500;
   margin-bottom: 0.8rem;
 }
@@ -478,7 +478,7 @@ footer {
   line-height: 1.1;
 }
 
-.page-header h1 em { color: var(--pink); font-style: italic; }
+.page-header h1 em { color: var(--orange); font-style: italic; }
 .page-header p { color: var(--muted); font-size: 1.1rem; margin-top: 1rem; max-width: 550px; }
 
 /* ── TEAM ── */
@@ -507,7 +507,7 @@ footer {
 }
 
 .team-card h3 { font-family: 'Fraunces', serif; font-size: 1.05rem; margin-bottom: 0.25rem; }
-.team-card p { font-size: 0.82rem; color: var(--pink); font-weight: 500; }
+.team-card p { font-size: 0.82rem; color: var(--orange); font-weight: 500; }
 
 /* ── FAQ ── */
 .faq-list { margin-top: 3rem; }
@@ -537,7 +537,7 @@ footer {
 .faq-question .icon {
   width: 28px; height: 28px;
   border-radius: 50%;
-  background: var(--pink);
+  background: var(--orange);
   color: white;
   display: flex;
   align-items: center;
@@ -577,7 +577,7 @@ footer {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   background: rgba(217,56,30,0.1);
-  color: var(--pink);
+  color: var(--orange);
   padding: 0.2rem 0.6rem;
   border-radius: 4px;
   margin-bottom: 0.8rem;
@@ -617,11 +617,11 @@ footer {
 }
 
 .contact-form input:focus,
-.contact-form textarea:focus { border-color: var(--pink); }
+.contact-form textarea:focus { border-color: var(--orange); }
 
 .contact-form textarea { height: 140px; resize: vertical; }
 .contact-form button {
-  background: var(--pink);
+  background: var(--orange);
   color: white;
   border: none;
   padding: 1rem 2.5rem;
@@ -634,7 +634,7 @@ footer {
   width: 100%;
 }
 .contact-form button:hover {
-  background: var(--pink-dark);
+  background: var(--orange-dark);
   transform: translateY(-2px);
 }
 
@@ -687,7 +687,7 @@ footer {
 }
 .proef-step .step-num {
   width: 40px; height: 40px;
-  background: var(--pink);
+  background: var(--orange);
   color: white;
   border-radius: 50%;
   display: flex; align-items: center; justify-content: center;
@@ -810,7 +810,7 @@ footer {
 
   .nav-links a:hover,
   .nav-links a.active {
-    color: var(--pink);
+    color: var(--orange);
     padding-left: 0.5rem;
   }
 
@@ -819,7 +819,7 @@ footer {
     display: block;
     text-align: center;
     padding: 0.9rem 1.5rem;
-    background: var(--pink);
+    background: var(--orange);
     color: white !important;
     border-radius: 100px;
     font-size: 0.95rem;
@@ -829,7 +829,7 @@ footer {
   }
 
   .nav-links .nav-cta:hover {
-    background: var(--pink-dark) !important;
+    background: var(--orange-dark) !important;
     padding-left: 1.5rem;
     transform: translateY(-1px);
   }
